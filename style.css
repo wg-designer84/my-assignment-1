@@ -142,7 +142,6 @@
 .vision .card button a{
     text-decoration: none;
     color: #fff;
-    
 }
 
 .vision .vision-cards .card-1 button{
@@ -177,4 +176,84 @@
     transition:0.5s;
     cursor: pointer;
     border-radius: 0;
+}
+
+/* News Section Css */
+.News{
+    display: block;
+    margin: 0 auto;
+    width: 1280px;
+}
+
+.News > h1{
+    font-size: 40px;
+    font-weight: 700px;
+    color: #0E0E0E;
+    padding: 50px 0 15px 0;
+}
+
+.News > p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(14, 14, 14, 70%);
+    line-height: 24px;
+}
+
+.News .news-card{
+    display: flex;
+    gap: 25px;
+    background-color: #ffffff;
+    border-radius: 24px;
+    margin:20px 0;
+    padding: 48px;
+}
+
+.News .news-card img{
+    width:408px;
+    height:306px;
+    border-radius:24px;
+    margin-top: 7px;
+}
+
+.News .news-card .news-card-content h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    color: rgb(14, 14, 14, 80%);
+}
+
+.News .news-card .news-card-content > p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(14, 14, 14, 70%);
+    line-height: 24px;
+    padding: 12px 0 0 0;
+}
+
+.News .news-card .news-card-content img{
+    max-width: 140px;
+    height:40px;
+    object-fit: contain;
+}
+
+.News .news-card .news-card-content button{
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    border: none;
+    margin-top:15px;
+    background-color: #09A15C;
+    margin: 20px 0 0 0;
+}
+
+.News .news-card .news-card-content button:hover{
+    background-color: #0a693e;
+    transition:0.5s;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.News .news-card .news-card-content button a{
+    text-decoration: none;
+    color: #fff;
 }
