@@ -12,9 +12,9 @@
 
 #hero-section{
     display: block;
+    margin: 0 auto;
     max-width: 1280px;
     min-height: 560px;
-    margin: 0 auto;
     background-color: #C6E4D6;
     padding: 100px 80px;
     border-radius: 8px;
@@ -46,6 +46,7 @@
     padding: 17px 34px;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 
 .hero .hero-content button a{
@@ -65,4 +66,115 @@
     max-width: 475px;
     height: 400px;
     background-size: cover;
+}
+
+/* Vision Section Css */
+.vision{
+    display: block;
+    margin: 0 auto;
+    width: 1280px;
+}
+
+.vision > h1{
+    font-size: 40px;
+    font-weight: 700px;
+    color: #0E0E0E;
+    padding: 50px 0 15px 0;
+}
+
+.vision > p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(14, 14, 14, 70%);
+    line-height: 24px;
+}
+
+.vision .vision-cards{
+    display: flex;
+    gap: 15px;
+    margin: 30px 0 0 0;
+}
+
+.vision .vision-cards .card{
+    padding: 25px 20px;
+    border-radius: 16px;
+}
+
+.vision .vision-cards .card-1{
+    background-color: rgb(84, 144, 245, 20%);
+}
+
+.vision .vision-cards .card-2{
+    background-color: rgb(198, 228, 214, 100%);
+}
+
+.vision .vision-cards .card-3{
+    background-color: rgb(247, 235, 207, 100%);
+}
+
+
+.vision .card .img{
+    max-width:64px;
+    height: 64px;
+}
+
+.vision .card h3{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.vision .card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(14, 14, 14, 70%);
+}
+
+.vision .card button{
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    border: none;
+    margin-top:15px;
+}
+
+.vision .card button a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.vision .vision-cards .card-1 button{
+    background-color: #5490F5;
+}
+
+.vision .vision-cards .card-1 button:hover{
+    background-color: #144eb2;
+    transition:0.5s;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.vision .vision-cards .card-2 button{
+    background-color: #09A15C;
+}
+
+.vision .vision-cards .card-2 button:hover{
+    background-color: #0a693e;
+    transition:0.5s;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+
+.vision .vision-cards .card-3 button{
+    background-color: #FFC239;
+}
+
+.vision .vision-cards .card-3 button:hover{
+    background-color: #ffd676;
+    transition:0.5s;
+    cursor: pointer;
+    border-radius: 0;
 }
